@@ -7,7 +7,7 @@ window.addEventListener("load", function() {
 
 document.querySelector("#play").addEventListener("click", function() {
 	video.play();
-	document.querySelector("#volume").textContent = video.volume*100 + "%";
+	document.querySelector("#volume").textContent = video.volume*100+"%";
 	
 });
 
